@@ -92,6 +92,6 @@ app.post("/**",(req,res)=>{
   })
 })
 
-app.listen(8080,"0.0.0.0",()=>{
-  console.log("REST Running at  3000")
+app.listen(port,"0.0.0.0",()=>{
+  console.log(`Application running at ${port}`)
 });
