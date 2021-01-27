@@ -26,7 +26,7 @@ const {getAllOrders} = require("./routes/getAllOrders")
 const {changeOrderStatus} = require("./routes/changeOrderStatus")
 
 console.log("Connectin to db")
-mongoose.connect(`mongodb+srv://test:test@bigbasketexample-wsjzx.mongodb.net/maindb?retryWrites=true&w=majority`, {
+mongoose.connect(`mongodb+srv://<USRNM>:<PASS>@bigbasketexample-wsjzx.mongodb.net/maindb?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
